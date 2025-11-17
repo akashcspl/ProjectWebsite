@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+div header img{
+  height: auto;
+  width: 85%;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+ .brand-red { /* Turns the brand name "Mesa Verde" red in color. */
+  color: red;
+}
+
+.mvlogo { /* Styles the logo in the Home page.*/
+  height: 50px;
+  width: 50px;
+}
+
+/* Navbar.css ------> Styles the NavBar of the Home page */
+.navbar-sunset-gradient {
+  /* Smooth horizontal gradient from light to your F76218 */
+  background: linear-gradient(
+    to right,
+    #FF9A70,  /* lighter start */
+    #FF832C,  /* mid-tone */
+    #F76218   /* your exact sunset color */
+  );
+  color: white;
+}
+
+/* Navbar brand and links */
+.navbar-sunset-gradient .navbar-brand,
+.navbar-sunset-gradient .nav-link {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect for links */
+.navbar-sunset-gradient .nav-link:hover {
+  color: #FFD1B3; /* soft highlight color on hover */
+  text-decoration: underline;
+}
+
+/* Active link styling */
+.navbar-sunset-gradient .nav-link.active {
+  font-weight: bold;
+  color: #FFD1B3; /* highlight active link */
+}
+
+/* <------ End of Navbar.css ------> */
+
+.img-fluid{ /* Styles the Mesa Verde picture in the Home page. */
+  margin-top: 2rem;
+  width: max-content;
+}
+
+.image-container {
+  position: relative; /* establishes a positioning context */
+  width: 100%;        /* or set a fixed width */
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.overlay-text {
+  position: absolute;   /* positions relative to the container */
+  top: 50%;             /* vertical center */
+  left: 50%;            /* horizontal center */
+  transform: translate(-50%, -50%); /* perfect centering */
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.7); /* makes text readable */
+  text-align: center;
+}
