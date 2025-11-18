@@ -1,9 +1,165 @@
-import React from 'react'
+import React, { useState, useEffect } from "react";
 
-const RequestNewAccount = () => {
+export default function RequestNewAccount() {
+  const [userId, setUserId] = useState("");
+  const [password, setPassword] = useState("");
+
+  const [banks, setBanks] = useState([]);
+  const [selectedBank, setSelectedBank] = useState("");
+
+  const [branches, setBranches] = useState([]);
+  const [selectedBranch, setSelectedBranch] = useState("");
+
+  const [message, setMessage] = useState("");
+
+  //  Fetch list of banks on component load
+  useEffect(() => {
+    const fetchBanks = async () => {
+      try {
+        const res = await fetch("http://localhost:5000/api/banks");
+        const data = await res.json();
+        setBanks(data);
+      } catch (error) {
+        console.error("Error fetching banks:", error);
+      }
+    };
+
+    fetchBanks();
+  }, []);
+
+  //  When user selects a bank, fetch branch list
+  const handleBankChange = async (e) => {
+    const bank = e.target.value;
+    setSelectedBank(bank);
+    setSelectedBranch(""); // reset previous branch selection
+    setBranches([]);       // clear old list
+
+    if (!bank) return;
+
+    try {
+      const res = await fetch(`http://localhost:5000/api/branches/${bank}`);
+      const data = await res.json();
+      setBranches(data);
+    } catch (error) {
+      console.error("Error fetching branches:", error);
+    }
+  };
+
+  //  Submit form to open a new account
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setMessage("");
+
+    const payload = {
+      userId,
+      password,
+      bankName: selectedBank,
+      branchName: selectedBranch,
+    };
+
+    try {
+      const response = await fetch("http://localhost:5000/api/openAccount", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        setMessage(`❌ ${data.error || "Account request failed."}`);
+        return;
+      }
+
+      setMessage("✔ Account request submitted successfully!");
+    } catch (error) {
+      console.error(error);
+      setMessage("❌ Error submitting request.");
+    }
+  };
+
   return (
-    <div>RequestNewAccount</div>
-  )
-}
+    <div>
+      <h2>Request New Bank Account</h2>
 
-export default RequestNewAccount
+      <form onSubmit={handleSubmit}>
+        {/* User ID */}
+        <label>
+          Current User ID:
+          <br />
+          <input
+            type="text"
+            value={userId}
+            onChange={(e) => setUserId(e.target.value)}
+            required
+          />
+        </label>
+
+        <br /><br />
+
+        {/* Password */}
+        <label>
+          Password:
+          <br />
+          <input
+            type="password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            required
+          />
+        </label>
+
+        <br /><br />
+
+        {/* Bank Selection */}
+        <label>
+          Select Bank:
+          <br />
+          <select
+            value={selectedBank}
+            onChange={handleBankChange}
+            required
+          >
+            <option value="">-- Choose a bank --</option>
+            {banks.map((bank) => (
+              <option key={bank} value={bank}>
+                {bank}
+              </option>
+            ))}
+          </select>
+        </label>
+
+        <br /><br />
+
+        {/* Branch selection (enabled only after bank selected) */}
+        <label>
+          Select Branch:
+          <br />
+          <select
+            value={selectedBranch}
+            onChange={(e) => setSelectedBranch(e.target.value)}
+            disabled={!selectedBank}
+            required
+          >
+            <option value="">-- Choose a branch --</option>
+            {branches.map((branch) => (
+              <option key={branch} value={branch}>
+                {branch}
+              </option>
+            ))}
+          </select>
+        </label>
+
+        <br /><br />
+
+        <button type="submit">Submit Account Request</button>
+      </form>
+
+      {message && (
+        <p style={{ color: message.startsWith("❌") ? "red" : "green" }}>
+          {message}
+        </p>
+      )}
+    </div>
+  );
+}

@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { useAuth } from "./AuthContext";
-import logo from './mesaverdelogo.jpg';
+import logo from './images/mesaverdelogo.jpg';
 
 export default function Navbar() {
   const { isLoggedIn, logout } = useAuth();

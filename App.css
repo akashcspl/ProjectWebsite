@@ -112,3 +112,31 @@ div header img{
   text-shadow: 2px 2px 5px rgba(0,0,0,0.7); /* makes text readable */
   text-align: center;
 }
+
+/* <------ Start of AboutUs.css ------> */
+
+.about-card {
+  border: none;
+  transition: transform 0.2s;
+}
+
+.about-card:hover {
+  transform: translateY(-5px);
+}
+
+.company-description {
+  background: linear-gradient(135deg, #fba16c, #f76218);
+  color: white;
+  max-width: 800px; /* limits width so it doesn’t stretch too far */
+}
+
+
+.card-title {
+  color: #f76218; /* Sunset red */
+}
+
+.card-subtitle {
+  font-style: italic;
+}
+
+/* <------ End of AboutUs.css ------> */
