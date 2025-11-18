@@ -11,6 +11,7 @@ import FAQs from "./pages/FAQs";
 import ContactUs from "./pages/ContactUs";
 import NotFound from "./pages/NotFound";
 import Login from "./pages/Login";
+import Signup from './pages/Signup';
 import Deposit from './pages/Deposit';
 import Withdraw from './pages/Withdraw';
 import Transfer from './pages/Transfer';
@@ -44,6 +45,7 @@ function App() {
         <Route path="/faqs" element={<FAQs />} />
         <Route path="/contactus" element={<ContactUs />} />
         <Route path='/login' element={<Login />} />
+        <Route path='/signup' element={<Signup />} />
         <Route path='/deposit' element={<Deposit />} />
         <Route path='/withdraw' element={<Withdraw />} />
         <Route path='/transfer' element={<Transfer />} />
