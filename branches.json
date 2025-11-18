@@ -1,0 +1,683 @@
+{
+"branches": [
+  {
+    "BranchId": "6XYT5IFX",
+    "BranchName": "Mumbai",
+    "Address": "655 Jaipur Road, Sector 15",
+    "PhoneNumber": "+91 9637268141",
+    "BankId": "PRMQTAO2",
+    "ManagerId": "JLOEZF"
+  },
+  {
+    "BranchId": "C69KGCYY",
+    "BranchName": "Metropolis",
+    "Address": "344 Nagpur Road, Sector 30",
+    "PhoneNumber": "+91 6625124026",
+    "BankId": "PRMQTAO2",
+    "ManagerId": "ZI09FE"
+  },
+  {
+    "BranchId": "PZUY83CS",
+    "BranchName": "Kolkata",
+    "Address": "400 Mumbai Road, Sector 37",
+    "PhoneNumber": "+91 6188237969",
+    "BankId": "PRMQTAO2",
+    "ManagerId": "Q4SBL5"
+  },
+  {
+    "BranchId": "DBQ1RE8Z",
+    "BranchName": "Nagpur",
+    "Address": "13 Gotham Road, Sector 7",
+    "PhoneNumber": "+91 8191443644",
+    "BankId": "S05BAYWA",
+    "ManagerId": "VPXJ45"
+  },
+  {
+    "BranchId": "HKVBMYB9",
+    "BranchName": "Central City",
+    "Address": "381 Pune Road, Sector 15",
+    "PhoneNumber": "+91 9529621983",
+    "BankId": "S05BAYWA",
+    "ManagerId": "U9G6JT"
+  },
+  {
+    "BranchId": "AXIEE2P3",
+    "BranchName": "Pune",
+    "Address": "839 Kolkata Road, Sector 10",
+    "PhoneNumber": "+91 7919845169",
+    "BankId": "S05BAYWA",
+    "ManagerId": "265F7R"
+  },
+  {
+    "BranchId": "LA3BAREV",
+    "BranchName": "Delhi",
+    "Address": "756 Star City Road, Sector 24",
+    "PhoneNumber": "+91 9774627869",
+    "BankId": "S05BAYWA",
+    "ManagerId": "RVU59S"
+  },
+  {
+    "BranchId": "7ZHUT6YW",
+    "BranchName": "Chennai",
+    "Address": "963 Lucknow Road, Sector 23",
+    "PhoneNumber": "+91 8205482675",
+    "BankId": "S05BAYWA",
+    "ManagerId": "94LCYX"
+  },
+  {
+    "BranchId": "INY3U001",
+    "BranchName": "Lucknow",
+    "Address": "356 Central City Road, Sector 17",
+    "PhoneNumber": "+91 6495650161",
+    "BankId": "S05BAYWA",
+    "ManagerId": "8QENZ6"
+  },
+  {
+    "BranchId": "396R1BT0",
+    "BranchName": "Jaipur",
+    "Address": "421 Star City Road, Sector 13",
+    "PhoneNumber": "+91 7943554229",
+    "BankId": "KUMATPCO",
+    "ManagerId": "YX2W0P"
+  },
+  {
+    "BranchId": "9CBLEMZO",
+    "BranchName": "Hyderabad",
+    "Address": "649 Jaipur Road, Sector 40",
+    "PhoneNumber": "+91 6392506759",
+    "BankId": "KUMATPCO",
+    "ManagerId": "TUHIXX"
+  },
+  {
+    "BranchId": "9XSAX8GP",
+    "BranchName": "Kolkata",
+    "Address": "706 Jaipur Road, Sector 45",
+    "PhoneNumber": "+91 8865000648",
+    "BankId": "KVTHO6J9",
+    "ManagerId": "YPNERF"
+  },
+  {
+    "BranchId": "FRCCS4ZJ",
+    "BranchName": "Chennai",
+    "Address": "522 Kolkata Road, Sector 44",
+    "PhoneNumber": "+91 6591679915",
+    "BankId": "KVTHO6J9",
+    "ManagerId": "SPQIQ1"
+  },
+  {
+    "BranchId": "HOCZ2W8E",
+    "BranchName": "Lucknow",
+    "Address": "266 Jaipur Road, Sector 4",
+    "PhoneNumber": "+91 6805646738",
+    "BankId": "KVTHO6J9",
+    "ManagerId": "M01QG2"
+  },
+  {
+    "BranchId": "KAWFZD0U",
+    "BranchName": "Pune",
+    "Address": "810 Nagpur Road, Sector 10",
+    "PhoneNumber": "+91 7662159865",
+    "BankId": "KVTHO6J9",
+    "ManagerId": "1EPXY1"
+  },
+  {
+    "BranchId": "LD6GMEJZ",
+    "BranchName": "Nagpur",
+    "Address": "44 Chennai Road, Sector 38",
+    "PhoneNumber": "+91 9346374098",
+    "BankId": "KVTHO6J9",
+    "ManagerId": "WL8HYT"
+  },
+  {
+    "BranchId": "7FDW33LN",
+    "BranchName": "Lucknow",
+    "Address": "106 Star City Road, Sector 50",
+    "PhoneNumber": "+91 8265799766",
+    "BankId": "KVTHO6J9",
+    "ManagerId": "44EJD4"
+  },
+  {
+    "BranchId": "ANM8L89A",
+    "BranchName": "Nagpur",
+    "Address": "556 Hyderabad Road, Sector 30",
+    "PhoneNumber": "+91 8358512040",
+    "BankId": "V4ERGH2P",
+    "ManagerId": "AA1S9B"
+  },
+  {
+    "BranchId": "S9XWGSNN",
+    "BranchName": "Hyderabad",
+    "Address": "2 Hyderabad Road, Sector 8",
+    "PhoneNumber": "+91 6388584619",
+    "BankId": "V4ERGH2P",
+    "ManagerId": "Z0XPUN"
+  },
+  {
+    "BranchId": "NAZ3YJVI",
+    "BranchName": "Jaipur",
+    "Address": "576 Mumbai Road, Sector 32",
+    "PhoneNumber": "+91 8879273924",
+    "BankId": "V4ERGH2P",
+    "ManagerId": "9ROQES"
+  },
+  {
+    "BranchId": "FS39R6MY",
+    "BranchName": "Jaipur",
+    "Address": "521 Jaipur Road, Sector 1",
+    "PhoneNumber": "+91 6815440001",
+    "BankId": "RNZ7KM7N",
+    "ManagerId": "9ZKU9O"
+  },
+  {
+    "BranchId": "QZWOZHVA",
+    "BranchName": "Central City",
+    "Address": "405 Nagpur Road, Sector 26",
+    "PhoneNumber": "+91 9911936676",
+    "BankId": "RNZ7KM7N",
+    "ManagerId": "HD53O0"
+  },
+  {
+    "BranchId": "6WPHUCBZ",
+    "BranchName": "Mumbai",
+    "Address": "810 Central City Road, Sector 29",
+    "PhoneNumber": "+91 9223739947",
+    "BankId": "RNZ7KM7N",
+    "ManagerId": "U9GM00"
+  },
+  {
+    "BranchId": "DZP8SDJV",
+    "BranchName": "Jaipur",
+    "Address": "13 Jaipur Road, Sector 38",
+    "PhoneNumber": "+91 7479765456",
+    "BankId": "RNZ7KM7N",
+    "ManagerId": "11RX6I"
+  },
+  {
+    "BranchId": "HYTNI6GU",
+    "BranchName": "Delhi",
+    "Address": "403 Mumbai Road, Sector 18",
+    "PhoneNumber": "+91 6874903874",
+    "BankId": "RNZ7KM7N",
+    "ManagerId": "LA78U3"
+  },
+  {
+    "BranchId": "JFGYIG54",
+    "BranchName": "Metropolis",
+    "Address": "593 Central City Road, Sector 36",
+    "PhoneNumber": "+91 7054075288",
+    "BankId": "27ZLP5VY",
+    "ManagerId": "LTKRPT"
+  },
+  {
+    "BranchId": "PFKC910T",
+    "BranchName": "Lucknow",
+    "Address": "528 Mumbai Road, Sector 25",
+    "PhoneNumber": "+91 9909316314",
+    "BankId": "27ZLP5VY",
+    "ManagerId": "8ZCYAJ"
+  },
+  {
+    "BranchId": "6SJG6OKS",
+    "BranchName": "Metropolis",
+    "Address": "364 Jaipur Road, Sector 45",
+    "PhoneNumber": "+91 7032421183",
+    "BankId": "27ZLP5VY",
+    "ManagerId": "YJOFDN"
+  },
+  {
+    "BranchId": "S4VYH0EH",
+    "BranchName": "Mumbai",
+    "Address": "402 Lucknow Road, Sector 9",
+    "PhoneNumber": "+91 9339251703",
+    "BankId": "CH3V1LGE",
+    "ManagerId": "US2UA3"
+  },
+  {
+    "BranchId": "T1W14KSO",
+    "BranchName": "Hyderabad",
+    "Address": "365 Chennai Road, Sector 23",
+    "PhoneNumber": "+91 7152510840",
+    "BankId": "CH3V1LGE",
+    "ManagerId": "CKLR5R"
+  },
+  {
+    "BranchId": "KI3TSXLS",
+    "BranchName": "Hyderabad",
+    "Address": "862 Metropolis Road, Sector 34",
+    "PhoneNumber": "+91 9301181615",
+    "BankId": "CH3V1LGE",
+    "ManagerId": "NYR49B"
+  },
+  {
+    "BranchId": "SDXOD7OA",
+    "BranchName": "Lucknow",
+    "Address": "952 Nagpur Road, Sector 17",
+    "PhoneNumber": "+91 7942875640",
+    "BankId": "CH3V1LGE",
+    "ManagerId": "94VE59"
+  },
+  {
+    "BranchId": "DUE8WB7J",
+    "BranchName": "Jaipur",
+    "Address": "677 Mumbai Road, Sector 28",
+    "PhoneNumber": "+91 7665142479",
+    "BankId": "CH3V1LGE",
+    "ManagerId": "RO1LAX"
+  },
+  {
+    "BranchId": "ZD3J266A",
+    "BranchName": "Gotham",
+    "Address": "414 Chennai Road, Sector 22",
+    "PhoneNumber": "+91 8032090052",
+    "BankId": "BO8P2UIR",
+    "ManagerId": "H1G7VE"
+  },
+  {
+    "BranchId": "P3BEDKB0",
+    "BranchName": "Delhi",
+    "Address": "819 Kolkata Road, Sector 14",
+    "PhoneNumber": "+91 6386445129",
+    "BankId": "BO8P2UIR",
+    "ManagerId": "2VO4KT"
+  },
+  {
+    "BranchId": "IT2PNLA1",
+    "BranchName": "Delhi",
+    "Address": "505 Gotham Road, Sector 36",
+    "PhoneNumber": "+91 7765370593",
+    "BankId": "BO8P2UIR",
+    "ManagerId": "F95YMW"
+  },
+  {
+    "BranchId": "F4Z448JD",
+    "BranchName": "Hyderabad",
+    "Address": "591 Bangalore Road, Sector 43",
+    "PhoneNumber": "+91 8648922603",
+    "BankId": "BO8P2UIR",
+    "ManagerId": "PIZBFJ"
+  },
+  {
+    "BranchId": "032J5KPJ",
+    "BranchName": "Bangalore",
+    "Address": "256 Mumbai Road, Sector 10",
+    "PhoneNumber": "+91 7063199717",
+    "BankId": "EE7GPOVW",
+    "ManagerId": "H908B2"
+  },
+  {
+    "BranchId": "4SBZ1IBG",
+    "BranchName": "Bangalore",
+    "Address": "950 Gotham Road, Sector 48",
+    "PhoneNumber": "+91 9559442442",
+    "BankId": "EE7GPOVW",
+    "ManagerId": "D9PAFD"
+  },
+  {
+    "BranchId": "16F8NH5K",
+    "BranchName": "Hyderabad",
+    "Address": "539 Lucknow Road, Sector 45",
+    "PhoneNumber": "+91 8724302697",
+    "BankId": "EE7GPOVW",
+    "ManagerId": "CCGQBN"
+  },
+  {
+    "BranchId": "V2FD8DVX",
+    "BranchName": "Pune",
+    "Address": "719 Jaipur Road, Sector 48",
+    "PhoneNumber": "+91 9893402821",
+    "BankId": "2T9V5IHB",
+    "ManagerId": "IU78AM"
+  },
+  {
+    "BranchId": "P4JJGNJL",
+    "BranchName": "Mumbai",
+    "Address": "379 Bangalore Road, Sector 38",
+    "PhoneNumber": "+91 7291291638",
+    "BankId": "2T9V5IHB",
+    "ManagerId": "AQV08R"
+  },
+  {
+    "BranchId": "4TEI8Q7D",
+    "BranchName": "Star City",
+    "Address": "527 Metropolis Road, Sector 48",
+    "PhoneNumber": "+91 6231062022",
+    "BankId": "2T9V5IHB",
+    "ManagerId": "D3KPTI"
+  },
+  {
+    "BranchId": "BBYN7IH8",
+    "BranchName": "Hyderabad",
+    "Address": "164 Star City Road, Sector 49",
+    "PhoneNumber": "+91 7616051416",
+    "BankId": "2T9V5IHB",
+    "ManagerId": "ZIBRQ2"
+  },
+  {
+    "BranchId": "8Q55VKVR",
+    "BranchName": "Nagpur",
+    "Address": "172 Chennai Road, Sector 17",
+    "PhoneNumber": "+91 7881921525",
+    "BankId": "2T9V5IHB",
+    "ManagerId": "0EIK7R"
+  },
+  {
+    "BranchId": "DIEZJS21",
+    "BranchName": "Mumbai",
+    "Address": "479 Star City Road, Sector 28",
+    "PhoneNumber": "+91 7570968634",
+    "BankId": "CBHSZ4JJ",
+    "ManagerId": "FT1QJQ"
+  },
+  {
+    "BranchId": "Y2B2CTN7",
+    "BranchName": "Kolkata",
+    "Address": "337 Nagpur Road, Sector 28",
+    "PhoneNumber": "+91 9397555804",
+    "BankId": "CBHSZ4JJ",
+    "ManagerId": "NAZBYX"
+  },
+  {
+    "BranchId": "8VP6AAJ0",
+    "BranchName": "Metropolis",
+    "Address": "48 Metropolis Road, Sector 25",
+    "PhoneNumber": "+91 7684610257",
+    "BankId": "CBHSZ4JJ",
+    "ManagerId": "NBDQN3"
+  },
+  {
+    "BranchId": "WSVBRQTI",
+    "BranchName": "Pune",
+    "Address": "361 Hyderabad Road, Sector 49",
+    "PhoneNumber": "+91 8153391971",
+    "BankId": "CBHSZ4JJ",
+    "ManagerId": "ROA0LM"
+  },
+  {
+    "BranchId": "EPQT9DLQ",
+    "BranchName": "Metropolis",
+    "Address": "157 Delhi Road, Sector 26",
+    "PhoneNumber": "+91 8136954865",
+    "BankId": "E7V4TLSX",
+    "ManagerId": "OHIRH2"
+  },
+  {
+    "BranchId": "WZR0JXCI",
+    "BranchName": "Nagpur",
+    "Address": "546 Bangalore Road, Sector 21",
+    "PhoneNumber": "+91 6179567949",
+    "BankId": "E7V4TLSX",
+    "ManagerId": "23FO5G"
+  },
+  {
+    "BranchId": "2YQY7QV3",
+    "BranchName": "Pune",
+    "Address": "389 Star City Road, Sector 22",
+    "PhoneNumber": "+91 9550327939",
+    "BankId": "E7V4TLSX",
+    "ManagerId": "4PVL0R"
+  },
+  {
+    "BranchId": "H9T2XL10",
+    "BranchName": "Jaipur",
+    "Address": "230 Nagpur Road, Sector 5",
+    "PhoneNumber": "+91 7174216238",
+    "BankId": "E7V4TLSX",
+    "ManagerId": "2TN3SR"
+  },
+  {
+    "BranchId": "900EFWWJ",
+    "BranchName": "Jaipur",
+    "Address": "963 Mumbai Road, Sector 29",
+    "PhoneNumber": "+91 7158783811",
+    "BankId": "E7V4TLSX",
+    "ManagerId": "GG13TB"
+  },
+  {
+    "BranchId": "UPQBUTEB",
+    "BranchName": "Pune",
+    "Address": "481 Pune Road, Sector 22",
+    "PhoneNumber": "+91 9973405275",
+    "BankId": "E7V4TLSX",
+    "ManagerId": "2JWYHW"
+  },
+  {
+    "BranchId": "AACXP3XI",
+    "BranchName": "Metropolis",
+    "Address": "189 Chennai Road, Sector 1",
+    "PhoneNumber": "+91 6435217509",
+    "BankId": "I9Z4IXZF",
+    "ManagerId": "NN04PL"
+  },
+  {
+    "BranchId": "2NIE2HK3",
+    "BranchName": "Pune",
+    "Address": "493 Delhi Road, Sector 18",
+    "PhoneNumber": "+91 7859644528",
+    "BankId": "I9Z4IXZF",
+    "ManagerId": "O9H0GU"
+  },
+  {
+    "BranchId": "VVMD6EHN",
+    "BranchName": "Mumbai",
+    "Address": "458 Jaipur Road, Sector 36",
+    "PhoneNumber": "+91 8145536771",
+    "BankId": "I9Z4IXZF",
+    "ManagerId": "GSEA0K"
+  },
+  {
+    "BranchId": "QUUVMGX8",
+    "BranchName": "Pune",
+    "Address": "757 Central City Road, Sector 22",
+    "PhoneNumber": "+91 9527721631",
+    "BankId": "I9Z4IXZF",
+    "ManagerId": "OBFZ7W"
+  },
+  {
+    "BranchId": "JR15HVWQ",
+    "BranchName": "Star City",
+    "Address": "110 Central City Road, Sector 11",
+    "PhoneNumber": "+91 8958622688",
+    "BankId": "UEJTPJ19",
+    "ManagerId": "1JN1FU"
+  },
+  {
+    "BranchId": "NWOP8PMQ",
+    "BranchName": "Star City",
+    "Address": "679 Bangalore Road, Sector 43",
+    "PhoneNumber": "+91 6621703031",
+    "BankId": "UEJTPJ19",
+    "ManagerId": "0LGNE0"
+  },
+  {
+    "BranchId": "CG6B7AM3",
+    "BranchName": "Bangalore",
+    "Address": "87 Gotham Road, Sector 45",
+    "PhoneNumber": "+91 8353616147",
+    "BankId": "UEJTPJ19",
+    "ManagerId": "F8V9D5"
+  },
+  {
+    "BranchId": "SKIALIIT",
+    "BranchName": "Metropolis",
+    "Address": "502 Jaipur Road, Sector 3",
+    "PhoneNumber": "+91 9015880235",
+    "BankId": "UEJTPJ19",
+    "ManagerId": "5UUYRR"
+  },
+  {
+    "BranchId": "LURFF5YC",
+    "BranchName": "Star City",
+    "Address": "672 Metropolis Road, Sector 45",
+    "PhoneNumber": "+91 8953538205",
+    "BankId": "UEJTPJ19",
+    "ManagerId": "RDWWNJ"
+  },
+  {
+    "BranchId": "W7XEC897",
+    "BranchName": "Bangalore",
+    "Address": "511 Metropolis Road, Sector 47",
+    "PhoneNumber": "+91 7256033144",
+    "BankId": "8MM0BWBB",
+    "ManagerId": "TP912L"
+  },
+  {
+    "BranchId": "QBXUASFV",
+    "BranchName": "Metropolis",
+    "Address": "312 Jaipur Road, Sector 30",
+    "PhoneNumber": "+91 8233159346",
+    "BankId": "8MM0BWBB",
+    "ManagerId": "O6ZYNN"
+  },
+  {
+    "BranchId": "LAMN842C",
+    "BranchName": "Delhi",
+    "Address": "136 Pune Road, Sector 5",
+    "PhoneNumber": "+91 9557593638",
+    "BankId": "8MM0BWBB",
+    "ManagerId": "HY4YVR"
+  },
+  {
+    "BranchId": "5Y367AJU",
+    "BranchName": "Gotham",
+    "Address": "330 Bangalore Road, Sector 14",
+    "PhoneNumber": "+91 8032455862",
+    "BankId": "8MM0BWBB",
+    "ManagerId": "G4OMMH"
+  },
+  {
+    "BranchId": "CU7Z96TA",
+    "BranchName": "Lucknow",
+    "Address": "600 Delhi Road, Sector 47",
+    "PhoneNumber": "+91 9255519946",
+    "BankId": "8MM0BWBB",
+    "ManagerId": "X14P44"
+  },
+  {
+    "BranchId": "22B8SZ6M",
+    "BranchName": "Gotham",
+    "Address": "600 Lucknow Road, Sector 45",
+    "PhoneNumber": "+91 8249009579",
+    "BankId": "MF94N50P",
+    "ManagerId": "CJT6PJ"
+  },
+  {
+    "BranchId": "FZZRRXB8",
+    "BranchName": "Lucknow",
+    "Address": "747 Delhi Road, Sector 4",
+    "PhoneNumber": "+91 6110078829",
+    "BankId": "MF94N50P",
+    "ManagerId": "I7W5WB"
+  },
+  {
+    "BranchId": "Q8WH07EH",
+    "BranchName": "Central City",
+    "Address": "112 Star City Road, Sector 44",
+    "PhoneNumber": "+91 6272584029",
+    "BankId": "MF94N50P",
+    "ManagerId": "6U4WGR"
+  },
+  {
+    "BranchId": "S0NT08OB",
+    "BranchName": "Bangalore",
+    "Address": "630 Kolkata Road, Sector 30",
+    "PhoneNumber": "+91 7941839494",
+    "BankId": "MF94N50P",
+    "ManagerId": "ACU3VN"
+  },
+  {
+    "BranchId": "X300A26K",
+    "BranchName": "Gotham",
+    "Address": "623 Mumbai Road, Sector 30",
+    "PhoneNumber": "+91 7531979075",
+    "BankId": "MF94N50P",
+    "ManagerId": "F6QLSD"
+  },
+  {
+    "BranchId": "7509ZDIV",
+    "BranchName": "Mumbai",
+    "Address": "789 Gotham Road, Sector 27",
+    "PhoneNumber": "+91 8883638170",
+    "BankId": "BY37JSWZ",
+    "ManagerId": "2TYS80"
+  },
+  {
+    "BranchId": "TGPMQWQT",
+    "BranchName": "Central City",
+    "Address": "379 Chennai Road, Sector 48",
+    "PhoneNumber": "+91 9753358994",
+    "BankId": "BY37JSWZ",
+    "ManagerId": "QOQS9E"
+  },
+  {
+    "BranchId": "C98GA7BK",
+    "BranchName": "Mumbai",
+    "Address": "523 Pune Road, Sector 43",
+    "PhoneNumber": "+91 6550823994",
+    "BankId": "BY37JSWZ",
+    "ManagerId": "7VJ1E4"
+  },
+  {
+    "BranchId": "79EW3AKP",
+    "BranchName": "Central City",
+    "Address": "460 Hyderabad Road, Sector 33",
+    "PhoneNumber": "+91 7490228520",
+    "BankId": "BY37JSWZ",
+    "ManagerId": "YSXMHL"
+  },
+  {
+    "BranchId": "NUMOL8A1",
+    "BranchName": "Bangalore",
+    "Address": "205 Delhi Road, Sector 12",
+    "PhoneNumber": "+91 9041675056",
+    "BankId": "BY37JSWZ",
+    "ManagerId": "IEE7NH"
+  },
+  {
+    "BranchId": "C02PBTKO",
+    "BranchName": "Star City",
+    "Address": "609 Chennai Road, Sector 18",
+    "PhoneNumber": "+91 8480856703",
+    "BankId": "BY37JSWZ",
+    "ManagerId": "SGCDQU"
+  },
+  {
+    "BranchId": "U6M1HMRD",
+    "BranchName": "Gotham",
+    "Address": "576 Nagpur Road, Sector 47",
+    "PhoneNumber": "+91 8218684567",
+    "BankId": "JFKT6O3D",
+    "ManagerId": "GH0M8A"
+  },
+  {
+    "BranchId": "UZJUXSV1",
+    "BranchName": "Pune",
+    "Address": "261 Bangalore Road, Sector 8",
+    "PhoneNumber": "+91 9367488771",
+    "BankId": "JFKT6O3D",
+    "ManagerId": "OALU2L"
+  },
+  {
+    "BranchId": "DX8AD2FN",
+    "BranchName": "Mumbai",
+    "Address": "180 Kolkata Road, Sector 13",
+    "PhoneNumber": "+91 9035799480",
+    "BankId": "JFKT6O3D",
+    "ManagerId": "NUE2UJ"
+  },
+  {
+    "BranchId": "V0JRS4R3",
+    "BranchName": "Lucknow",
+    "Address": "56 Delhi Road, Sector 4",
+    "PhoneNumber": "+91 9158225525",
+    "BankId": "GDZAQ8AM",
+    "ManagerId": "BE6DM7"
+  },
+  {
+    "BranchId": "Y7ROPV53",
+    "BranchName": "Jaipur",
+    "Address": "982 Star City Road, Sector 11",
+    "PhoneNumber": "+91 7720557564",
+    "BankId": "GDZAQ8AM",
+    "ManagerId": "J5U9ZL"
+  }
+]}
