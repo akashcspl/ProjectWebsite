@@ -1,0 +1,144 @@
+{
+"banks": [
+  {
+    "BankId": "PRMQTAO2",
+    "BankName": "Acme National",
+    "BankManagerId": "2CFSAG",
+    "createdOn": "2020-01-12",
+    "modifiedOn": "2020-01-12"
+  },
+  {
+    "BankId": "S05BAYWA",
+    "BankName": "Umbrella Bank",
+    "BankManagerId": "HFVPMJ",
+    "createdOn": "2024-04-23",
+    "modifiedOn": "2024-04-23"
+  },
+  {
+    "BankId": "KUMATPCO",
+    "BankName": "Gekko Bank",
+    "BankManagerId": "47H9B8",
+    "createdOn": "2021-09-02",
+    "modifiedOn": "2021-09-02"
+  },
+  {
+    "BankId": "KVTHO6J9",
+    "BankName": "Wayne Financial",
+    "BankManagerId": "SA5BWT",
+    "createdOn": "2022-01-16",
+    "modifiedOn": "2022-01-16"
+  },
+  {
+    "BankId": "V4ERGH2P",
+    "BankName": "Tyrell Bank",
+    "BankManagerId": "6175FD",
+    "createdOn": "2022-01-18",
+    "modifiedOn": "2022-01-18"
+  },
+  {
+    "BankId": "RNZ7KM7N",
+    "BankName": "Gekko Bank",
+    "BankManagerId": "87VPWZ",
+    "createdOn": "2017-04-10",
+    "modifiedOn": "2017-04-10"
+  },
+  {
+    "BankId": "27ZLP5VY",
+    "BankName": "Acme National",
+    "BankManagerId": "VBYA4U",
+    "createdOn": "2025-05-28",
+    "modifiedOn": "2025-05-28"
+  },
+  {
+    "BankId": "CH3V1LGE",
+    "BankName": "LexCorp Bank",
+    "BankManagerId": "K93SXY",
+    "createdOn": "2020-03-20",
+    "modifiedOn": "2020-03-20"
+  },
+  {
+    "BankId": "BO8P2UIR",
+    "BankName": "Hooli Bank",
+    "BankManagerId": "GIBNHY",
+    "createdOn": "2018-05-30",
+    "modifiedOn": "2018-05-30"
+  },
+  {
+    "BankId": "EE7GPOVW",
+    "BankName": "Stark Bank",
+    "BankManagerId": "ZCNA6F",
+    "createdOn": "2024-11-10",
+    "modifiedOn": "2024-11-10"
+  },
+  {
+    "BankId": "2T9V5IHB",
+    "BankName": "Acme National",
+    "BankManagerId": "6KN4BD",
+    "createdOn": "2015-01-20",
+    "modifiedOn": "2015-01-20"
+  },
+  {
+    "BankId": "CBHSZ4JJ",
+    "BankName": "Mesa Verde Bank",
+    "BankManagerId": "WAQG6U",
+    "createdOn": "2020-12-19",
+    "modifiedOn": "2020-12-19"
+  },
+  {
+    "BankId": "E7V4TLSX",
+    "BankName": "Wayne Financial",
+    "BankManagerId": "MU0DQW",
+    "createdOn": "2025-05-02",
+    "modifiedOn": "2025-05-02"
+  },
+  {
+    "BankId": "I9Z4IXZF",
+    "BankName": "LexCorp Bank",
+    "BankManagerId": "E96PV2",
+    "createdOn": "2017-06-03",
+    "modifiedOn": "2017-06-03"
+  },
+  {
+    "BankId": "UEJTPJ19",
+    "BankName": "Acme National",
+    "BankManagerId": "WL44MY",
+    "createdOn": "2016-07-28",
+    "modifiedOn": "2016-07-28"
+  },
+  {
+    "BankId": "8MM0BWBB",
+    "BankName": "Gekko Bank",
+    "BankManagerId": "LKRXH2",
+    "createdOn": "2016-03-29",
+    "modifiedOn": "2016-03-29"
+  },
+  {
+    "BankId": "MF94N50P",
+    "BankName": "Hooli Bank",
+    "BankManagerId": "069U5Q",
+    "createdOn": "2015-05-08",
+    "modifiedOn": "2015-05-08"
+  },
+  {
+    "BankId": "BY37JSWZ",
+    "BankName": "Wayne Financial",
+    "BankManagerId": "OLAMML",
+    "createdOn": "2021-06-07",
+    "modifiedOn": "2021-06-07"
+  },
+  {
+    "BankId": "JFKT6O3D",
+    "BankName": "Tyrell Bank",
+    "BankManagerId": "ONKO90",
+    "createdOn": "2017-09-11",
+    "modifiedOn": "2017-09-11"
+  },
+  {
+    "BankId": "GDZAQ8AM",
+    "BankName": "Wayne Financial",
+    "BankManagerId": "URZ3WD",
+    "createdOn": "2024-01-24",
+    "modifiedOn": "2024-01-24"
+  }
+]
+}
