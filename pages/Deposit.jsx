@@ -43,9 +43,9 @@ export default function Deposit() {
 
   return (
     <div>
-      <h2>Deposit Amount</h2>
+      <h2 className="text-center mb-4">Deposit Amount</h2>
 
-      <form onSubmit={handleSubmit}>
+      <form className="form-container" onSubmit={handleSubmit}>
         <label>
           Enter the amount to be deposited:
           <br />

@@ -69,7 +69,7 @@ export default function CloseBranch() {
 
   return (
     <div className="container my-5">
-      <h2 className="text-center fw-bold mb-4">Close a Bank Branch</h2>
+      <h2 className="text-center mb-4">Close a Bank Branch</h2>
       <div className="close-branch-form mx-auto p-4">
         <div className="mb-3">
           <label htmlFor="bankSelect" className="form-label fw-bold">

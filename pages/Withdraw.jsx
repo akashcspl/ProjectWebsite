@@ -42,8 +42,8 @@ export default function Withdrawal() {
   };
 
   return (
-    <div>
-      <h2>Withdraw Funds</h2>
+    <div className="form-container">
+      <h2 className="text-center mb-4">Withdraw Funds</h2>
 
       <form onSubmit={handleSubmit}>
         <label>

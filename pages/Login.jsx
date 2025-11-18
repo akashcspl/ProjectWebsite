@@ -35,8 +35,8 @@ function Login() {
 
   return (
     <div style={{ textAlign: "center", marginTop: "5rem" }}>
-      <h2>Login</h2>
-      <form onSubmit={handleLogin}>
+      <h2 className="text-center mb-4">Login</h2>
+      <form className="form-container" onSubmit={handleLogin}>
         <input type="email" placeholder="Email" value={email}
           onChange={(e) => setEmail(e.target.value)} required />
         <br />

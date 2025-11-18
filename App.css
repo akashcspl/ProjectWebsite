@@ -338,3 +338,67 @@ div header img{
   background-color: #d94f0f;
 }
 /* <------ End of CreateNewBranch.css ------> */
+
+/* <------ End of Footer.css ------> */
+footer a:hover {
+  text-decoration: underline;
+}
+footer p {
+  margin: 0.3rem 0;
+}
+/* <------ End of Footer.css ------> */
+
+
+/* <------ End of Forms.css ------> */
+/* Container wrapper for forms */
+.form-container {
+  max-width: 500px;
+  margin: 2rem auto; /* Center forms */
+  padding: 2rem;
+  border-radius: 12px;
+  background: #ffe6d8; /* Sunset-themed */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Labels */
+.form-container label {
+  color: #f76218;
+  font-weight: bold;
+}
+
+/* Inputs and selects */
+.form-container input,
+.form-container select,
+.form-container textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+}
+
+/* Buttons */
+.form-container button {
+  background-color: #f76218;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  width: 100%;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.form-container button:hover {
+  background-color: #d94f0f;
+}
+
+/* Optional message text */
+.form-container .form-message {
+  margin-top: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+/* <------ End of Forms.css ------> */
+

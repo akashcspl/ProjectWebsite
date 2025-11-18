@@ -12,9 +12,9 @@ export default function ContactUs() {
         style={{ height: "50%", width: "50%", borderRadius: "50%" }}
       />
 
-      <h2>Impressed with my work? Let's get in touch!</h2>
+      <h2 className="text-center mb-4">Have any questions? Let's get in touch!</h2>
 
-      <form method="post" action="someserver">
+      <form className="form-container" method="post" action="someserver">
         <input
           type="text"
           name="firstName"

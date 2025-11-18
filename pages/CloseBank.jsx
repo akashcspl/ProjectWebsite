@@ -78,14 +78,14 @@ export default function CloseBank() {
 
   return (
     <div className="container my-5">
-      <h2 className="fw-bold mb-4 text-center">Close a Bank</h2>
+      <h2 className="text-center mb-4">Close a Bank</h2>
 
       {loading ? (
         <p className="text-center">Loading banks...</p>
       ) : banks.length === 0 ? (
         <p className="text-center">No banks available to close.</p>
       ) : (
-        <form className="close-bank-form" onSubmit={handleSubmit}>
+        <form className="form-container" onSubmit={handleSubmit}>
           <div className="mb-3">
             <label htmlFor="bankSelect" className="form-label fw-bold">
               Select Bank

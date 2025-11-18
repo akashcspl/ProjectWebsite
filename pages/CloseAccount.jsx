@@ -81,8 +81,8 @@ export default function CloseAccount() {
   };
 
   return (
-    <div>
-      <h2>Request to Close Bank Account</h2>
+    <div className="form-container">
+      <h2 className="text-center mb-4">Request to Close Bank Account</h2>
 
       <form onSubmit={handleSubmit}>
         {/* User ID */}

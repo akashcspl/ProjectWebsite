@@ -45,8 +45,8 @@ export default function TransferForm() {
   };
 
   return (
-    <div>
-      <h2>Transfer Funds</h2>
+    <div className="form-container">
+      <h2 className="text-center mb-4">Transfer Funds</h2>
 
       <form onSubmit={handleSubmit}>
         <label>

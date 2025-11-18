@@ -63,9 +63,9 @@ export default function CreateNewBranch() {
 
   return (
     <div className="container my-5">
-      <h2 className="text-center fw-bold mb-4">Create a New Branch</h2>
+      <h2 className="text-center mb-4">Create a New Branch</h2>
       <form
-        className="create-branch-form mx-auto p-4"
+        className="form-container"
         onSubmit={handleCreateBranch}
       >
         <div className="mb-3">
