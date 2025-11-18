@@ -140,3 +140,201 @@ div header img{
 }
 
 /* <------ End of AboutUs.css ------> */
+
+
+/* <------ Start of ContactUs.css ------> */
+.contact-form {
+  width: 400px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.form-textarea {
+  height: 120px;
+  resize: none;
+}
+
+.form-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #f76218;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #d94e10;
+}
+
+/* <------ End of ContactUs.css ------> */
+
+/* <------ Start of ViewAllAccounts.css ------> */
+.custom-table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.custom-table th {
+  background-color: #f76218 !important; /* Sunset color */
+}
+
+.custom-table tbody tr:hover {
+  background-color: #ffe4d1;
+  transition: 0.2s ease-in-out;
+}
+/* <------ End of ViewAllAccounts.css ------> */
+
+/* <------ Start of OnboardNewAccounts.css ------> */
+.onboarding-table th {
+  background-color: #f76218 !important; /* Sunset orange */
+}
+
+.onboarding-table tr:hover {
+  background-color: #ffe4d1 !important;
+}
+/* <------ End of OnboardNewAccounts.css ------> */
+
+/* <------ Start of CloseUserAccounts.css ------> */
+.close-account-table th {
+  background-color: #b30000 !important; /* deep red */
+}
+
+.close-account-table tr:hover {
+  background-color: #ffe5e5 !important;
+}
+/* <------ End of CloseUserAccounts.css ------> */
+
+/* <------ Start of ViewAllBranches.css ------> */
+.branches-table th {
+  background-color: #f76218 !important; /* Sunset theme */
+}
+
+.branches-table tr:hover {
+  background-color: #ffe6d8 !important;
+}
+
+.pagination-controls button {
+  min-width: 100px;
+}
+/* <------ End of ViewAllBranches.css ------> */
+
+/* <------ Start of ViewAllBanks.css ------> */
+.banks-table th {
+  background-color: #f76218 !important; /* Sunset gradient theme */
+}
+
+.banks-table tr:hover {
+  background-color: #ffe6d8 !important;
+}
+
+.pagination-controls button {
+  min-width: 100px;
+}
+/* <------ End of ViewAllBanks.css ------> */
+
+/* <------ Start of CloseBank.css ------> */
+.close-bank-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 12px;
+  background: #ffe6d8; /* Sunset-themed background */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.close-bank-form label {
+  color: #f76218;
+}
+
+.close-bank-form ul {
+  padding-left: 1.5rem;
+}
+
+.close-bank-form button {
+  background-color: #f76218;
+  border: none;
+}
+
+.close-bank-form button:hover {
+  background-color: #d94f0f;
+}
+/* <------ End of CloseBank.css ------> */
+
+/* <------ Start of CreateNewBank.css ------> */
+.create-bank-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 12px;
+  background: #ffe6d8; /* Sunset-themed background */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.create-bank-form label {
+  color: #f76218;
+}
+
+.create-bank-form button {
+  background-color: #f76218;
+  border: none;
+}
+
+.create-bank-form button:hover {
+  background-color: #d94f0f;
+}
+/* <------ End of CreateNewBank.css ------> */
+
+/* <------ Start of CloseBranch.css ------> */
+.close-branch-form {
+  max-width: 500px;
+  border-radius: 12px;
+  background: #ffe6d8; /* Sunset-themed */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.close-branch-form label {
+  color: #f76218;
+}
+
+.close-branch-form button {
+  background-color: #f76218;
+  border: none;
+}
+
+.close-branch-form button:hover {
+  background-color: #d94f0f;
+}
+/* <------ End of CloseBranch.css ------> */
+
+/* <------ Start of CreateNewBranch.css ------> */
+.create-branch-form {
+  max-width: 500px;
+  border-radius: 12px;
+  background: #ffe6d8; /* Sunset-themed */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.create-branch-form label {
+  color: #f76218;
+}
+
+.create-branch-form button {
+  background-color: #f76218; /* green for creation */
+  border: none;
+}
+
+.create-branch-form button:hover {
+  background-color: #d94f0f;
+}
+/* <------ End of CreateNewBranch.css ------> */

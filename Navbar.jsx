@@ -67,6 +67,59 @@ export default function Navbar() {
               <li><NavLink className="dropdown-item" to="closeaccount">Close Account</NavLink></li>
             </ul>
           </li>
+          <li className="nav-item dropdown">
+            <NavLink
+              className="nav-link dropdown-toggle"
+              to="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Banks
+            </NavLink>
+
+            <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><NavLink className="dropdown-item" to="viewallbanks">View All Banks</NavLink></li>
+              <li><NavLink className="dropdown-item" to="/createnewbank">Create New Bank</NavLink></li>
+              <li><NavLink className="dropdown-item" to="closebank">Close Bank</NavLink></li>
+            </ul>
+          </li>
+          <li className="nav-item dropdown">
+            <NavLink
+              className="nav-link dropdown-toggle"
+              to="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Branches
+            </NavLink>
+
+            <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><NavLink className="dropdown-item" to="viewallbranches">View All Branches</NavLink></li>
+              <li><NavLink className="dropdown-item" to="/createnewbranch">Create New Branch</NavLink></li>
+              <li><NavLink className="dropdown-item" to="closebranch">Close Branch</NavLink></li>
+            </ul>
+          </li>
+          <li className="nav-item dropdown">
+            <NavLink
+              className="nav-link dropdown-toggle"
+              to="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              User Actions
+            </NavLink>
+
+            <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><NavLink className="dropdown-item" to="onboardnewusers">Onboard New Users</NavLink></li>
+              <li><NavLink className="dropdown-item" to="/closeuseraccounts">Close User Accounts</NavLink></li>
+            </ul>
+          </li>
         </ul>
 
         <ul className="navbar-nav ms-auto">
@@ -102,7 +155,6 @@ export default function Navbar() {
           ) : (
             <>
               <li className="nav-item"><NavLink className="nav-link" to="/login">Login</NavLink></li>
-              <li className="nav-item"><NavLink className="nav-link" to="/signup">Sign Up</NavLink></li>
             </>
           )}
         </ul>
