@@ -1,7 +1,8 @@
 Project Documentation — React Project (Aggregate Banking System)
 
 Version 1.0
-Author: Akash Agarwal and Nagarajan Ramesh
+Author: Akash Agarwal and Nagarajan Ramesh and Yaeshwanth V
+
 Type: Full Functional & Technical Overview
 
 1. Project Overview
