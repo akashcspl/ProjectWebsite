@@ -6,15 +6,15 @@ Author: Akash Agarwal and Nagarajan Ramesh and Yaeshwanth V
 Type: Full Functional & Technical Overview
 
 1. Project Overview
-1.1 Name
+  1.1 Name
 
 React Project – Aggregate Banking Software
 
-1.2 Summary
+  1.2 Summary
 
 The application is an aggregate banking platform designed to allow users to perform all essential banking tasks in one centralized location. Instead of visiting multiple banks—each with their own interfaces, portals, or physical paper-based processes—users can access and manage every banking service through a unified interface.
 
-1.3 Users
+  1.3 Users
 
 The system supports two primary user roles:
 
@@ -22,7 +22,7 @@ Customer/User
 
 Administrator
 
-1.4 Problem Statement
+  1.4 Problem Statement
 
 Modern banking requires interacting with multiple banks, physical branches, and complex processes, which leads to wasted time, repetitive document submissions, and inconsistencies.
 
@@ -36,8 +36,9 @@ Streamlined processes (no repeated paperwork)
 
 Faster onboarding, account management, and transaction handling
 
+
 2. Technology Stack
-2.1 Frontend
+  2.1 Frontend
 
 React.js
 
@@ -46,22 +47,22 @@ Bootstrap 5
 Custom CSS
 Used to create a responsive, modern, and intuitive user interface.
 
-2.2 Backend
+  2.2 Backend
 
 JSON-Server
 Used as a mock backend to store and serve JSON-based data for users, accounts, banks, branches, and transactions.
 
-2.3 Database
+  2.3 Database
 
 SQL Server
 Used for structured banking data persistence, especially for accounts, transactions, and financial information.
 
-2.4 External APIs
+  2.4 External APIs
 
 None
 
 3. Core Features & Modules
-3.1 Authentication Module
+  3.1 Authentication Module
 Login / Signup
 
 Users can:
@@ -74,7 +75,7 @@ Access restricted features only after authentication
 
 Logout session securely
 
-3.2 User Features
+  3.2 User Features
 a. Home Page
 
 A welcoming landing page presenting project features, navigation, and key CTA elements.
@@ -127,7 +128,7 @@ h. Logout
 
 Terminates the current JWT-authenticated session.
 
-3.3 Admin Features
+  3.3 Admin Features
 a. Bank Management
 
 Admins can:
@@ -156,10 +157,11 @@ Approve or reject new account opening requests
 
 Approve or reject account closure requests
 
-3.4 General Features
+  3.4 General Features
 404 Page
 
 A user-friendly page shown when the user navigates to an invalid or undefined route.
+
 
 4. Architecture Overview
 
