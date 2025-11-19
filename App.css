@@ -409,4 +409,28 @@ footer p {
   justify-content: space-between; 
 }
 
+.image-wrapper {
+  position: relative;
+  display: inline-block; /* wrapper matches image dimensions */
+}
+
+.hero-image {
+  display: block; /* removes bottom gap */
+  width: auto;
+  height: auto;
+}
+
+.centered-text {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  color: white;         /* change as needed */
+  text-align: center;
+  font-size: 2.5rem;    /* adjust to taste */
+  padding: 0 20px;      /* optional for better small-screen spacing */
+}
+
+
 
